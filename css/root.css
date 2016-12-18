@@ -52,6 +52,17 @@ a.home {
 	text-decoration: none;
 	color: #FFF;
 }
+#error {
+	font-family: "Ultine Norm Regular";
+	color: #000;
+	text-align: center;
+	width: 500px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	overflow: visible;
+}
 #title {
 	font-family: "kaushan script";
 	font-style: normal;
@@ -82,17 +93,17 @@ a.home {
 	margin-top: 50px;
 	overflow: visible;
 }
+#main {
+	font-family: "Ultine Norm Regular";
+	color: #000;
+	text-align: justify;
+}
 .main {
 	width: auto;
 	height: auto;
 	padding: 10px;
 	border-left: #000 thin solid;
 	border-right: #000 thin solid;
-}
-#main {
-	font-family: "Ultine Norm Regular";
-	color: #000;
-	text-align: justify;
 }
 .menu {
 	color: #000;
