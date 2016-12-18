@@ -1,7 +1,8 @@
 User-agent: *
 Disallow: /fonts/
+Disallow: /css/
+Disallow: /images/
 Disallow: mad.html
 Disallow: about.html
 Disallow: dots.html
 Disallow: 404.html
-Disallow: fury1-anti-spam.png
