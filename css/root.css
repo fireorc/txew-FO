@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'chunkfive roman';
+    src: url('../fonts/chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chunkfive-webfont.woff') format('woff'),
+         url('../fonts/chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/chunkfive-webfont.svg#chunkfive') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kaushan script';
+    src: url('../fonts/kaushanscript-regular-webfont.eot');
+    src: url('../fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+         url('../fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('../fonts/kaushanscript-regular-webfont.svg#kaushan script') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ultine norm regular';
+    src: url('../fonts/ultinenormregular-webfont.eot');
+    src: url('../fonts/ultinenormregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ultinenormregular-webfont.woff2') format('woff2'),
+         url('../fonts/ultinenormregular-webfont.woff') format('woff'),
+         url('../fonts/ultinenormregular-webfont.ttf') format('truetype'),
+         url('../fonts/ultinenormregular-webfont.svg#ultine norm regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #F93;
+}
+body,td,th {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+html {
+	min-width: 800px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	text-decoration: none;
+}
+a.home {
+	text-decoration: none;
+	color: #FFF;
+}
+#title {
+	font-family: "kaushan script";
+	font-style: normal;
+	color: #FFF;
+	font-size: 72px;
+	text-align: center;
+	text-shadow: 2px 2px 1px #000;
+	margin-top: 25%;
+	padding: 0px;
+	line-height: 10px;
+}
+#sub {
+	font-family: "chunkfive roman";
+	font-style: normal;
+	color: #000;
+	padding-top: 5px;
+	font-size: 32px;
+	text-align: center;
+}
+#selected {
+	text-decoration: underline ;
+}
+#main {
+	font-family: "Ultine Norm Regular";
+	color: #000;
+	margin-top: 50px;
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+}
+.menu {
+	color: #000;
+}
+.menu:hover {
+	color: rgba(0,0,0,.5);
+}
+.contact {
+	background-image: url(../images/furyone-anti-spam.png);
+	text-align: center;
+	width: 159px;
+	height: 41px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;	
+	background-repeat: no-repeat;
+	background-position: center;
+}
