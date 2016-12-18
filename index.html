@@ -46,10 +46,6 @@ html {
 }
 a {
 	text-decoration: none;
-	color: #000;
-}
-a:hover {
-	color: rgba(0,0,0,.5);
 }
 #title {
 	font-family: "kaushan script";
@@ -70,11 +66,33 @@ a:hover {
 	font-size: 32px;
 	text-align: center;
 }
+#selected {
+	text-decoration: underline ;
+}
+#main {
+	font-family: "Sofia Pro Light";
+	color: rgba(0,0,0,.7);
+	margin-top: 50px;
+	width: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu {
+	color: #000;
+}
+.menu:hover {
+	color: rgba(0,0,0,.5);
+}
+a.home {
+	text-decoration: none;
+	color: #FFF;
+}
 </style>
 </head>
 
 <body>
-<h1 id="title">FuryOne</h1>
-<h2 id="sub"><a href="mad">mad</a> <a href="about">about</a> <a href="dots">dots</a></h2>
+<h1 id="title"><a href="." class="home">FuryOne</a></h1>
+<h2 id="sub"><a href="mad" class="menu">mad</a> <a href="about" class="menu">about</a> <a href="dots" class="menu">dots</a></h2>
 </body>
 </html>

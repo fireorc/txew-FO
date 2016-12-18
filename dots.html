@@ -46,10 +46,6 @@ html {
 }
 a {
 	text-decoration: none;
-	color: #000;
-}
-a:hover {
-	color: rgba(0,0,0,.5);
 }
 #title {
 	font-family: "kaushan script";
@@ -82,12 +78,22 @@ a:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+.menu {
+	color: #000;
+}
+.menu:hover {
+	color: rgba(0,0,0,.5);
+}
+a.home {
+	text-decoration: none;
+	color: #FFF;
+}
 </style>
 </head>
 
 <body>
-<h1 id="title">FuryOne</h1>
-<h2 id="sub"><a href="mad">mad</a> <a href="about">about</a> <span id="selected">dots</span></h2>
+<h1 id="title"><a href="/" class="home">FuryOne</a></h1>
+<h2 id="sub"><a href="mad" class="menu">mad</a> <a href="about" class="menu">about</a> <span id="selected">dots</span></h2>
 <div id="main">
 <p>The domain names on FuryOne are top-notch, exclusively made of real words, and crafted to span the dot to unleash their full potential. With focus on brandability and familiarity, these memorable names are well-formed to suit any type of project or venture.</p>
 </div>
