@@ -74,16 +74,25 @@ a.home {
 #selected {
 	text-decoration: underline ;
 }
+#jar {
+	width: 500px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	overflow: visible;
+}
+.main {
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border-left: #000 thin solid;
+	border-right: #000 thin solid;
+}
 #main {
 	font-family: "Ultine Norm Regular";
 	color: #000;
-	margin-top: 50px;
-	width: 500px;
-	height: 200px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	overflow: visible;
+	text-align: justify;
 }
 .menu {
 	color: #000;
