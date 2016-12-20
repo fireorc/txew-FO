@@ -1,16 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 @font-face {
-    font-family: 'chunkfive roman';
-    src: url('../fonts/chunkfive-webfont.eot');
-    src: url('../fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/chunkfive-webfont.woff') format('woff'),
-         url('../fonts/chunkfive-webfont.ttf') format('truetype'),
-         url('../fonts/chunkfive-webfont.svg#chunkfive') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'ultine norm regular';
     src: url('../fonts/ultinenormregular-webfont.eot');
     src: url('../fonts/ultinenormregular-webfont.eot?#iefix') format('embedded-opentype'),
