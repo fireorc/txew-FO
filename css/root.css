@@ -124,9 +124,10 @@ a.home {
 }
 .owl {
 	background-image: url(../images/furyone-owl.png);
-	width: 593px;
-	height: 351px;
+	width: 752px;
+	height: 99px;
 	text-align: center;
+	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: no-repeat;
