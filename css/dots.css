@@ -26,8 +26,8 @@ html {
 #name {
 	font-family: "Ultine Norm Regular";
 	font-style: normal;
-	color: rgba(0,0,0,0.8);
-	text-shadow: 0px 0px 1.5px rgba(0,0,0,0.8);
+	color: rgba(255,255,255,0.8);
+	text-shadow: 0px 0px 1.5px rgba(255,255,255,0.8);
 	font-size: 72px;
 	text-align: center;
 	margin-top: 200px;
