@@ -23,7 +23,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 }
-#name {
+/*#name {
 	font-family: "Ultine Norm Regular";
 	font-style: normal;
 	color: rgba(255,255,255,1);
@@ -31,6 +31,24 @@ html {
 	font-size: 72px;
 	text-align: center;
 	margin-top: 200px;
+}*/
+#name {
+	font-family: "Ultine Norm Regular";
+	font-style: normal;
+	color: rgba(255,153,51,1);
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+	font-size: 72px;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 285px;
+	vertical-align: middle;
+	width: 811px;
+	height: 285px;
+	background-image: url(../images/furyone-banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 #def {
 	font-family: "Ultine Norm Regular";
