@@ -41,7 +41,7 @@ html {
 	background-repeat: no-repeat;
 	background-position: center;
 }
-#def {
+/*#def {
 	font-family: "Ultine Norm Regular";
 	font-style: normal;
 	color: rgba(0,0,0,1);
@@ -56,11 +56,12 @@ html {
 	padding: 10px;
 	border-left: #000 thin solid;
 	border-right: #000 thin solid;
-}
+}*/
 .copyright {
 	background-image: url(../images/furyone-copyright.png);
 	text-align: center;
 	width: 359px;
+	min-width: 855px;
 	height: 75px;
 	margin-left: auto;
 	margin-right: auto;
