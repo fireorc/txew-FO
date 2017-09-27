@@ -29,7 +29,7 @@ html {
 #name {
 	font-family: "Ultine Norm Regular";
 	font-style: normal;
-	color: #e3d8c9;
+	color: rgba(227,216,201,.85);
 	text-shadow: 0px 2px 3px rgba(0,0,0,.75);
 	-webkit-font-smoothing: antialiased !important;
 	font-size: 72px;
