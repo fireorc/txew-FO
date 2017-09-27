@@ -11,39 +11,30 @@
     font-weight: normal;
     font-style: normal;
 }
-body {
-	background-color: #FFF;
-}
 body,td,th {
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
 }
 html {
-	margin-left: auto;
-	margin-right: auto;
-	min-width: 800px;
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/furyone-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #header {
-	background-color: #F93;
-	margin-top: 0;
-	width: 100%;
-	height: 125px;
-	background-image: url(../images/furyone-swoop.png);
-	background-repeat: no-repeat;
-	background-position: center center;
 }
 #name {
 	font-family: "Ultine Norm Regular";
 	font-style: normal;
 	color: #e3d8c9;
-	width: 100%;
-	height: 125px;
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 	font-size: 72px;
+	width: auto;
+	height: auto;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 25px;
+	margin-top: 15%;
 }
 #footer {
 }
