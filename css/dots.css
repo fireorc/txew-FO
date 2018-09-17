@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'ultine norm regular';
+    src: url('../fonts/ultinenormregular-webfont.eot');
+    src: url('../fonts/ultinenormregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ultinenormregular-webfont.woff2') format('woff2'),
+         url('../fonts/ultinenormregular-webfont.woff') format('woff'),
+         url('../fonts/ultinenormregular-webfont.ttf') format('truetype'),
+         url('../fonts/ultinenormregular-webfont.svg#ultine norm regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body,td,th {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+}
+html {
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/furyone-lander.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#header {
+}
+#name {
+	font-family: "Ultine Norm Regular";
+	font-style: normal;
+	color: rgba(0,0,0,1);
+	text-shadow: 0px 1px 2px rgba(0,0,0,.75);
+	-webkit-font-smoothing: antialiased !important;
+	font-size: 72px;
+	width: auto;
+	height: auto;
+	text-align: center;
+	margin-top: 5%;
+	color: rgba(255,255,255,1);
+	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+#footer {
+	position: fixed;
+	width: 359px;
+	height: 75px;
+	margin-left: -180px;
+	left: 50%;
+	bottom: 20px;
+	background-image: url(../images/furyone-copyright-white.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
