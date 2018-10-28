@@ -7,3 +7,5 @@ Disallow: mad.html
 Disallow: about.html
 Disallow: domains.html
 Disallow: 404.html
+
+Sitemap: http://fury.one/sitemap.xml
