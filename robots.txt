@@ -3,9 +3,6 @@ Disallow: /fonts/
 Disallow: /css/
 Disallow: /images/
 Disallow: /dots/
-Disallow: mad.html
-Disallow: about.html
-Disallow: domains.html
 Disallow: 404.html
 
-Sitemap: http://fury.one/sitemap.xml
+Sitemap: https://fury.one/sitemap.xml
