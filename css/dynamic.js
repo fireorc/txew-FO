@@ -14,12 +14,12 @@
 	 $(document).ready(function() {
  
 		// Check if the URL parameter is apples
-		if (dynamicContent == 'sucky') {
-			$('#sucky').show();
+		if (dynamicContent == 'fury1') {
+			$('#fury1').show();
 		} 
 		// Check if the URL parameter is oranges
-		else if (dynamicContent == 'oranges') {
-			$('#oranges').show();
+		else if (dynamicContent == 'sucky') {
+			$('#sucky').show();
 		} 
 		// Check if the URL parameter is bananas
 		else if (dynamicContent == 'bananas') {
