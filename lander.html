@@ -51,59 +51,25 @@ html {
     display:none;
 }
 </style>
-<!--<script type="text/javascript">
-	// Parse the URL parameter
-	function getParameterByName(name, url) {
-	    if (!url) url = window.location.href;
-	    name = name.replace(/[\[\]]/g, "\\$&");
-	    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-	        results = regex.exec(url);
-	    if (!results) return null;
-	    if (!results[2]) return '';
-	    return decodeURIComponent(results[2].replace(/\+/g, " "));
-	}
-	// Give the parameter a variable name
-	var dynamicContent = getParameterByName('dn');
- 
-	 $(document).ready(function() {
- 
-		// Check if the URL parameter is apples
-		if (dynamicContent == 'sucky') {
-			$('#sucky').show();
-		} 
-		// Check if the URL parameter is oranges
-		else if (dynamicContent == 'oranges') {
-			$('#oranges').show();
-		} 
-		// Check if the URL parameter is bananas
-		else if (dynamicContent == 'bananas') {
-			$('#bananas').show();
-		} 
-		// Check if the URL parmeter is empty or not defined, display default content
-		else {
-			$('#default-content').show();
-		}
-	});
-</script>-->
 </head>
 
 <body>
 <div class="name">
 <!-- Default Dynamic Section -->
 <div id="default-content" class="dynamic-content">
-  This is the default content
+  For the Discerning Buyer
 </div>
 <!-- Dynamic Section 1 -->
-<div id="sucky" class="dynamic-content">
-  Sucky.co
+<div id="fury1" class="dynamic-content">
+  Fury1.com
 </div>
 <!-- Dynamic Section 2 -->
-<div id="oranges" class="dynamic-content">
-  I like oranges
-</div>
-<!-- Dynamic Section 3 -->
 <div id="bananas" class="dynamic-content">
   I like bananas
+</div>
+<!-- Dynamic Section 3 -->
+<div id="sucky" class="dynamic-content">
+  Sucky.co
 </div>
 </div>
 <script src="css/dynamic.js"></script>
